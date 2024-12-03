@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="display" aria-label="Calculator display" readonly />
+
+        <div class="buttons">
+            <button class="operator" data-value="AC" aria-label="Clear all">AC</button>
+            <button class="operator" data-value="DEL" aria-label="Delete last entry">DEL</button>
+            <button class="operator" data-value="%" aria-label="Percentage">%</button>
+            <button class="operator" data-value="/" aria-label="Divide">/</button>
+
+            <button data-value="7" aria-label="Seven">7</button>
+            <button data-value="8" aria-label="Eight">8</button>
+            <button data-value="9" aria-label="Nine">9</button>
+            <button class="operator" data-value="*" aria-label="Multiply">*</button>
+
+            <button data-value="4" aria-label="Four">4</button>
+            <button data-value="5" aria-label="Five">5</button>
+            <button data-value="6" aria-label="Six">6</button>
+            <button class="operator" data-value="-" aria-label="Subtract">-</button>
+
+            <button data-value="1" aria-label="One">1</button>
+            <button data-value="2" aria-label="Two">2</button>
+            <button data-value="3" aria-label="Three">3</button>
+            <button class="operator" data-value="+" aria-label="Add">+</button>
+
+            <button data-value="0" aria-label="Zero">0</button>
+            <button data-value="00" aria-label="Double zero">00</button>
+            <button data-value="." aria-label="Decimal point">.</button>
+            <button class="operator" data-value="=" aria-label="Calculate result">=</button>
+        </div>
+    </div>
+
+    <script src="query.js"></script>
+</body>
+</html>

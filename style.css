@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000; /* Simplified background color */
+  }
+  
+  .container {
+    position: relative;
+    max-width: 400px; /* Increased width for better usability */
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px; /* Increased padding for a more spacious feel */
+    background: #fff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  }
+  
+  .display {
+    height: 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    font-size: 30px; /* Increased font size for better readability */
+    color: #000e1a;
+    background-color: #f9f9f9; /* Subtle background for the display */
+    border-radius: 6px; /* Added border radius for consistency */
+  }
+  
+  .buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .buttons button {
+    padding: 15px; /* Increased padding for better touch targets */
+    border-radius: 6px;
+    border: none;
+    font-size: 24px; /* Increased font size for better readability */
+    cursor: pointer;
+    background-color: #eee;
+    transition: background-color 0.3s, transform 0.1s; /* Smooth transitions */
+  }
+  
+  .buttons button:hover {
+    background-color: #ddd; /* Darker background on hover */
+  }
+  
+  .buttons button:active {
+    transform: scale(0.98); /* Slightly more pronounced active state */
+  }
+  
+  .operator {
+    color: #f75e06;
+    background-color: #ffe0b2; /* Distinct background for operator buttons */
+  }
+  
+  .operator:hover {
+    background-color: #f75e06; /* Change background on hover */
+    color: white; /* Change text color on hover */
+  }
